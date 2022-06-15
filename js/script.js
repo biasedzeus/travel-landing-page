@@ -6,7 +6,9 @@ const initApp = () =>{
     const menuBtn = document.querySelector(".nav__burger-btn")
     const list = document.querySelector(".nav__list");
     menuBtn.addEventListener("click",toggleButtonAndMenu)
-    list.addEventListener("click",toggleButtonAndMenu)
+    list.addEventListener("click",toggleButtonAndMenu);
+    displayCopyRightYr();
+
 
 }
 
@@ -19,3 +21,7 @@ const toggleButtonAndMenu = () =>{
     
 }
 
+const displayCopyRightYr = () =>{
+    const year = new Date().getFullYear();
+    document.getElementById("year").textContent = year;
+}
