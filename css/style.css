@@ -123,9 +123,13 @@ a:hover{
 }
 .nav__burger::before{
     transform: translateY(-8px);
+    background: #0ce3ff;
+
 }
 .nav__burger::after{
     transform: translateY(8px);
+    background: #ff0808;
+
 }
 
 .nav__burger-btn.open .nav__burger{
@@ -133,12 +137,12 @@ a:hover{
 }
 
 .nav__burger-btn.open .nav__burger::before{
-    background: #C2DED1;
+    background: #0ce3ff;
     transform: rotate(45deg);
 }
 
-.nav__burger-btn.open .nav__burger::before{
-    background: #C2DED1;
+.nav__burger-btn.open .nav__burger::after{
+    background: #ff0808;
     transform: rotate(-45deg);
 }
 
