@@ -306,6 +306,7 @@ max-width: 400px;
 @media screen and (min-width:768px) {
     
     .menu__items_container{
+        padding: 10px;
        flex-direction: row;
        flex-wrap: wrap;
 
@@ -364,4 +365,19 @@ max-width: 400px;
         background-image: url(../img/bgmain.jpg);
         /* background-attachment: fixed;     */
     }
+
+    .btn{
+        font-size: 2rem;
+        padding: 0.5rem;
+        margin: 10px;
+        border-radius: 5px;
+        color: white;
+        background-color:red;
+        border: none;
+    }
+
+    .btn.book{
+    background-color: green;
+    }
 }
+
